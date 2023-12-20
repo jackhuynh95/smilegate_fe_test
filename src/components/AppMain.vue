@@ -5,6 +5,7 @@ import AppCardsFeatured from './AppCardsFeatured.vue';
 import AddCardsCollection from './AppCardsCollection.vue';
 import AppCardsBestSell from './AppCardsBestSell.vue';
 import AppOffertsBlock from './AppOffertsBlock.vue';
+import AppBlockFeedback from './AppBlockFeedback.vue';
 export default {
     name: 'Main',
     components: {
@@ -14,6 +15,7 @@ export default {
         AddCardsCollection,
         AppCardsBestSell,
         AppOffertsBlock,
+        AppBlockFeedback,
     }
 };
 </script>
@@ -30,8 +32,16 @@ export default {
         <h2 class="gap-2 d-flex align-items-center">Best Seller</h2>
         <span>Must heave products from our top sellers</span>
     </div>
-    <AppCardsBestSell></AppCardsBestSell>
+    <div class="container">
+        <AppCardsBestSell></AppCardsBestSell>
+    </div>
     <AppOffertsBlock></AppOffertsBlock>
+    <div class="section d-flex flex-column align-items-center justify-content-center">
+        <h2 class="gap-2 d-flex align-items-center">New Arrivals</h2>
+        <span>Brand new project from top designers</span>
+    </div>
+    <AppCardsBestSell></AppCardsBestSell>
+    <AppBlockFeedback></AppBlockFeedback>
 </template>
 
 <style lang="scss" scoped>
