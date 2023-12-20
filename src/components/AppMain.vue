@@ -7,6 +7,7 @@ import AppCardsBestSell from './AppCardsBestSell.vue';
 import AppOffertsBlock from './AppOffertsBlock.vue';
 import AppBlockFeedback from './AppBlockFeedback.vue';
 import AppPostsBlog from './AppPostsBlog.vue';
+import AppCardsTopSell from './AppCardsTopSell.vue';
 export default {
     name: 'Main',
     components: {
@@ -18,6 +19,7 @@ export default {
         AppOffertsBlock,
         AppBlockFeedback,
         AppPostsBlog,
+        AppCardsTopSell,
     }
 };
 </script>
@@ -49,6 +51,7 @@ export default {
         <span>The latest Classic Shop news</span>
     </div>
     <AppPostsBlog></AppPostsBlog>
+    <AppCardsTopSell></AppCardsTopSell>
 </template>
 
 <style lang="scss" scoped>
