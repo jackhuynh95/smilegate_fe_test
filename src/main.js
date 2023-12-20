@@ -19,9 +19,12 @@ import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+
 
 /* add icons to the library */
-library.add(faUserSecret, faFacebookF, faTwitter, faInstagram, faYoutube, faCartShopping, faChevronDown, faMagnifyingGlass);
+library.add(faUserSecret, faFacebookF, faTwitter, faInstagram, faYoutube, faCartShopping, faChevronDown, faMagnifyingGlass, faChevronLeft, faChevronRight);
 
 // Import all of Bootstrap's JS
 import * as bootstrap from 'bootstrap';

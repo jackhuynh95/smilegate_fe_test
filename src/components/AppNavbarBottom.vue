@@ -7,7 +7,7 @@ export default {
 <template>
     <div id="bottom-header" class="container d-flex align-items-center justify-content-between">
         <div>
-            <img src="../../public/classic_shop_logo2x.png" alt="">
+            <img src="../../classic_shop_logo2x.png" alt="">
         </div>
         <nav>
             <ul class="nav nav-pills">
