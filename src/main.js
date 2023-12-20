@@ -23,10 +23,11 @@ import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { faCircle } from "@fortawesome/free-solid-svg-icons";
 import { faCircle as faCircleEmpty } from "@fortawesome/free-regular-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 
 /* add icons to the library */
-library.add(faUserSecret, faFacebookF, faTwitter, faInstagram, faYoutube, faCartShopping, faChevronDown, faMagnifyingGlass, faChevronLeft, faChevronRight, faCircle, faCircleEmpty);
+library.add(faUserSecret, faFacebookF, faTwitter, faInstagram, faYoutube, faCartShopping, faChevronDown, faMagnifyingGlass, faChevronLeft, faChevronRight, faCircle, faCircleEmpty, faEnvelope);
 
 // Import all of Bootstrap's JS
 import * as bootstrap from 'bootstrap';
