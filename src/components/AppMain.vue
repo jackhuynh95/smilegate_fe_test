@@ -6,6 +6,7 @@ import AddCardsCollection from './AppCardsCollection.vue';
 import AppCardsBestSell from './AppCardsBestSell.vue';
 import AppOffertsBlock from './AppOffertsBlock.vue';
 import AppBlockFeedback from './AppBlockFeedback.vue';
+import AppPostsBlog from './AppPostsBlog.vue';
 export default {
     name: 'Main',
     components: {
@@ -16,6 +17,7 @@ export default {
         AppCardsBestSell,
         AppOffertsBlock,
         AppBlockFeedback,
+        AppPostsBlog,
     }
 };
 </script>
@@ -42,6 +44,11 @@ export default {
     </div>
     <AppCardsBestSell></AppCardsBestSell>
     <AppBlockFeedback></AppBlockFeedback>
+    <div class="section d-flex flex-column align-items-center justify-content-center">
+        <h2 class="gap-2 d-flex align-items-center">From Our Blog</h2>
+        <span>The latest Classic Shop news</span>
+    </div>
+    <AppPostsBlog></AppPostsBlog>
 </template>
 
 <style lang="scss" scoped>

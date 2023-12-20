@@ -30,7 +30,7 @@ export default {
     background-image: url(../../testimonials_home_1_bg.jpg);
     position: relative;
     text-align: center;
-    padding: 400px;
+    padding: 300px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
