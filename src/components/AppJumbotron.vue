@@ -10,9 +10,9 @@ export default {
         <div class="ec-overlay">
             <h1 class="text-white">Brand New Arrivals</h1>
             <span class="text-uppercase text-white">New collection form New York</span>
-            <div class="d-flex justify-content-center">
-                <a href="#" class="btn active rounded-pill" role="button" data-bs-toggle="button" aria-pressed="true">Active toggle link</a>
-                <a href="#" class="btn active rounded-pill" role="button" data-bs-toggle="button" aria-pressed="true">Active toggle link</a>
+            <div class="d-flex justify-content-center mt-4 gap-2">
+                <a href="#" class="btn btn-outline-light rounded-pill px-4" role="button" data-bs-toggle="button" aria-pressed="true">View all</a>
+                <a href="#" class="btn btn-outline-light rounded-pill px-4" role="button" data-bs-toggle="button" aria-pressed="true">Lookbook</a>
             </div>
         </div>
     </div>

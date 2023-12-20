@@ -4,7 +4,10 @@
 //font karla
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300&display=swap');
 
-h1,
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
 h2,
 h3,
 h4 {
