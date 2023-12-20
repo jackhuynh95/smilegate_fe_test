@@ -1,11 +1,13 @@
 <script>
 import AppNavbarTop from './AppNavbarTop.vue';
 import AppNavbarBottom from './AppNavbarBottom.vue';
+import AppJumbotron from './AppJumbotron.vue';
 export default {
     name: 'HeaderApp',
     components: {
         AppNavbarTop,
         AppNavbarBottom,
+        AppJumbotron,
     }
 }
 </script>
@@ -15,6 +17,7 @@ export default {
         <hr>
         <AppNavbarBottom></AppNavbarBottom>
     </header>
+    <AppJumbotron></AppJumbotron>
 </template>
 <style lang="scss" scoped>
 
