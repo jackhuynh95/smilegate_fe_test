@@ -18,7 +18,7 @@ export default {
             </ul>
         </div>
         <div id="ec-featured" class="col-3">
-            <h6 class="text-uppercase">Featured</h6>
+            <h6 class="text-uppercase">Top Rated products</h6>
             <ul class="d-flex justify-content-between px-0">
                 <li class="d-flex flex-column">
                     <span>Black Jacket <strong>$215</strong></span>
@@ -32,18 +32,7 @@ export default {
             </ul>
             <hr>
         </div>
-        <div id="ec-recent-posts" class="col-3">
-            <h6 class="text-uppercase">Recent Posts</h6>
-            <ul class="d-flex flex-column px-0">
-                <li class="">
-                    <a href="#" class="text-white d-flex align-items-center gap-1"> 
-                        <font-awesome-icon class="icon-small" icon="fa-solid fa-chevron-right" />
-                        <span>Aenean lobortis sapien enim viverra</span>
-                    </a>
-                </li>
-                <hr>
-            </ul>
-        </div>
+        
         <div id="ec-tags" class="col-3">
             <h6 class="text-uppercase">Tags</h6>
             <ul class="d-flex px-0">
