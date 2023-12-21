@@ -46,6 +46,7 @@ export default {
 @use '../assets/styles/partials/variables' as *;
  .ec-card-featured {
     width: calc(100% / 4);
+    margin-bottom: 140px;
     .card-body {
         margin-top: 36px;
         .price {
