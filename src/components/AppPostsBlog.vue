@@ -43,10 +43,14 @@ export default {
             </div>
         </div>
     </section>
+    <hr class="my-2">
 </template>
 
 <style lang="scss" scoped>
-.card {
-    --bs-card-border-width: 0;
+#from-blog {
+    padding-bottom: 80px;
+    .card {
+        --bs-card-border-width: 0;
+    }
 }
 </style>

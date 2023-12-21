@@ -34,10 +34,11 @@ export default {
     background-image: url(../../testimonials_home_1_bg.jpg);
     position: relative;
     text-align: center;
-    padding: 300px 0;
+    padding: 300px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
     .ec-overlay {
         position: absolute;
         top: 50%;
