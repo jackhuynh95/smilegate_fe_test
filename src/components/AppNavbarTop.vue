@@ -6,12 +6,12 @@ export default {
 
 <template>
 <div id="top-header" class="container py-2 d-flex align-items-center justify-content-between">
-        <div class="ec-socials d-flex gap-3">
-            <font-awesome-icon icon="fa-brands fa-facebook-f" />
-            <font-awesome-icon icon="fa-brands fa-twitter" />
-            <font-awesome-icon icon="fa-brands fa-instagram" />
-            <font-awesome-icon icon="fa-brands fa-youtube" />
-        </div>
+        <ul class="ec-socials d-flex gap-3">
+            <li><font-awesome-icon icon="fa-brands fa-facebook-f" /></li>
+            <li><font-awesome-icon icon="fa-brands fa-twitter" /></li>
+            <li><font-awesome-icon icon="fa-brands fa-instagram" /></li>
+            <li><font-awesome-icon icon="fa-brands fa-youtube" /></li>
+        </ul>
         <div class="ec-shop-list">
             <ul class="nav">
                 <li class="nav-item">

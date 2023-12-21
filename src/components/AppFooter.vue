@@ -1,14 +1,22 @@
 <script>
 import AddFooterLegacy from './AddFooterLegacy.vue';
+import AddFooterTop from './AppFooterTop.vue';
 export default {
     name: 'Footer',
     components: {
         AddFooterLegacy,
+        AddFooterTop,
     }
 }
 </script>
 
 <template>
-    <AddFooterLegacy></AddFooterLegacy>
+    <footer>
+        <AddFooterTop></AddFooterTop>
+        <AddFooterLegacy></AddFooterLegacy>
+    </footer>
 </template>
-<style lang="scss" scoped></style>
+
+<style lang="scss" scoped>
+
+</style>
