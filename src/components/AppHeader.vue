@@ -22,10 +22,8 @@ export default {
 <style lang="scss" scoped>
 
 header {
-    height: 160px;
-
    hr {
-    margin:0 0 1rem 0;
+    margin:0;
    }
 }
 </style>
