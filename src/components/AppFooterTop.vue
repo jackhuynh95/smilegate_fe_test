@@ -34,7 +34,10 @@ export default {
             <h6 class="text-uppercase">Featured</h6>
             <ul class="d-flex flex-column px-0">
                 <li class="d-flex flex-column">
-                    <a href=""> > Aenean lobortis sapien enim viverra</a>
+                    <a href=""> 
+                        <font-awesome-icon icon="fa-solid fa-chevron-right" />
+                        <span> Aenean lobortis sapien enim viverra</span>
+                    </a>
                 </li>
                 <hr>
                 <li class="d-flex flex-column">

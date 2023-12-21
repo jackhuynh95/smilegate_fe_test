@@ -5,12 +5,20 @@ export default {
 </script>
 
 <template>
-<div id="top-header" class="container py-2 d-flex align-items-center justify-content-between">
-        <ul class="ec-socials d-flex gap-3">
-            <li><font-awesome-icon icon="fa-brands fa-facebook-f" /></li>
-            <li><font-awesome-icon icon="fa-brands fa-twitter" /></li>
-            <li><font-awesome-icon icon="fa-brands fa-instagram" /></li>
-            <li><font-awesome-icon icon="fa-brands fa-youtube" /></li>
+    <div id="top-header" class="container pt-2 d-flex align-items-center justify-content-between">
+        <ul class="ec-socials d-flex m-0 align-items-center gap-3">
+            <li>
+                <font-awesome-icon icon="fa-brands fa-facebook-f" />
+            </li>
+            <li>
+                <font-awesome-icon icon="fa-brands fa-twitter" />
+            </li>
+            <li>
+                <font-awesome-icon icon="fa-brands fa-instagram" />
+            </li>
+            <li>
+                <font-awesome-icon icon="fa-brands fa-youtube" />
+            </li>
         </ul>
         <div class="ec-shop-list">
             <ul class="nav">
@@ -19,17 +27,17 @@ export default {
                         Shopping Cart
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
+                <li class="nav-item ">
+                    <a class="nav-link border-start border-end" href="#">
                         My Account
-                        <font-awesome-icon icon="fa-solid fa-chevron-down" />
+                        <font-awesome-icon class="icon-small" icon="fa-solid fa-chevron-down" />
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">
-                        <font-awesome-icon icon="fa-solid fa-cart-shopping" />
+                    <a class="nav-link px-5" href="#">
+                        <font-awesome-icon class="icon-small px-2" icon="fa-solid fa-cart-shopping" />
                         Cart
-                    <font-awesome-icon icon="fa-solid fa-chevron-down" />
+                    <font-awesome-icon class="px-2" icon="fa-solid fa-chevron-down" />
                     </a>
                 </li>
             </ul>
@@ -45,7 +53,8 @@ export default {
     color: $text;
 
     &:hover {
-        color: $color-primary;
+        background-color: rgb(236, 235, 235);
     }
+    
 }
 </style>
