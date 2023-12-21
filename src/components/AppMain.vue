@@ -29,14 +29,14 @@ export default {
 </script>
     
 <template>
-    <div class="section d-flex flex-column align-items-center justify-content-center">
-        <h2 class="gap-2 d-flex align-items-center">Feature Products</h2>
+    <div class="ec-section d-flex flex-column align-items-center justify-content-center">
+        <h2 class="gap-2 d-flex align-items-center">Featured Products</h2>
         <span>Must heave products from our top sellers</span>
     </div>
     <AppLabelGender></AppLabelGender>
     <AppCardsFeatured></AppCardsFeatured>
     <AddCardsCollection></AddCardsCollection>
-    <div class="section d-flex flex-column align-items-center justify-content-center">
+    <div class="ec-section d-flex flex-column align-items-center justify-content-center">
         <h2 class="gap-2 d-flex align-items-center">Best Seller</h2>
         <span>Must heave products from our top sellers</span>
     </div>
@@ -44,13 +44,13 @@ export default {
         <AppCardsBestSell></AppCardsBestSell>
     </div>
     <AppOffertsBlock></AppOffertsBlock>
-    <div class="section d-flex flex-column align-items-center justify-content-center">
+    <div class="ec-section d-flex flex-column align-items-center justify-content-center">
         <h2 class="gap-2 d-flex align-items-center">New Arrivals</h2>
         <span>Brand new project from top designers</span>
     </div>
     <AppCardsBestSell></AppCardsBestSell>
     <AppBlockFeedback></AppBlockFeedback>
-    <div class="section d-flex flex-column align-items-center justify-content-center">
+    <div class="ec-section d-flex flex-column align-items-center justify-content-center">
         <h2 class="gap-2 d-flex align-items-center">From Our Blog</h2>
         <span>The latest Classic Shop news</span>
     </div>
@@ -62,23 +62,24 @@ export default {
 
 <style lang="scss" scoped>
 @use '../assets/styles/partials/variables' as *; 
-.section {
+.ec-section {
+    margin: 80px 0 24px;
     h2 {
         &::before {
-            content: '';
             display: inline-block;
-            width: 200px;
+            content: '';
+            width: 520px;
             height: 1px;
-            max-width: 250px;
+            max-width: 550px;
             background-color: $elements;
             opacity: 0.5;
         }
         &::after {
             content: '';
             display: inline-block;
-            width: 200px;
+            width: 520px;
             height: 1px;
-            max-width: 250px;
+            max-width: 550px;
             background-color: $elements;
             opacity: 0.5;
         }
