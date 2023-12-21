@@ -45,7 +45,7 @@ export default {
 
 <template>
     <nav id="ec-box-menu">
-        <ul class="d-flex align-items-center gap-4">
+        <ul class="list-links-menu d-flex align-items-center gap-4">
             <MenuLink
                 v-for="(link, index) in this.menuLinks"
                 :name="link.name"
@@ -67,31 +67,13 @@ export default {
 <style lang="scss" scoped>
 @use '../../src/assets/styles/partials/variables' as *;
 
-    #ec-box-menu {
-        .nav {
-            .nav-item {
-                border-top: 2px solid transparent;
-                padding: 30px 0;
-            
-                &:hover {
-                    border-top: 2px solid $color-primary;
-                }            
-            }
-            .nav-link {
-                color: $text;
-                &:hover {
-                    color: $color-primary;
-                }
-            }
-            .ec-color-primary {
-                background-color: $color-primary;
-                color: $white;
-                &:hover {
-                    background-color: $color-secondary;
-                    color: $white;
-                }
-            }
-        }
+.no-hover {
+    background-color: $color-primary;
+    color: $white;
+    border-radius: 40px;
+    &:hover {
+        background-color: $color-secondary;
     }
+}
 </style>
 

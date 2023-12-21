@@ -27,30 +27,12 @@ export default {
 
 <style lang="scss" scoped>
 @use '../assets/styles/partials/variables' as *;
-.nav {
-    .nav-item {
-        border-top: 2px solid transparent;
-        padding: 30px 0;
-
-        &:hover {
-            border-top: 2px solid $color-primary;
-        }            
-    }
-    .nav-link {
-        color: $text;
-        &:hover {
+.nav-item {
+    padding: 40px 0;
+    border-top: 2px solid transparent;
+     &:hover {
         color: $color-primary;
+        border-top: 2px solid $color-primary;
     }
 }
-    .ec-color-primary {
-                background-color: $color-primary;
-                color: $white;
-
-                &:hover {
-                    background-color: $color-secondary;
-                    color: $white;
-                }
-            }
-        }
-
 </style>
