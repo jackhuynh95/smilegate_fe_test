@@ -12,7 +12,7 @@
             <img class="img-fluid" src="../../promo_box_1_bg.jpg" alt="promo1">
             <div class="ec-overlay">
                 <h2 class="text-white">70% Off</h2>
-                <span class="text-white">Vivamus tempor leo iacus, feugiat ut magna aliquam erat.</span>
+                <p class="text-white">Vivamus tempor leo iacus, feugiat ut magna aliquam erat.</p>
                 <div class="d-flex mt-4 gap-2">
                     <a href="#" class="btn btn-outline-light rounded-pill px-4 text-uppercase" role="button" data-bs-toggle="button" aria-pressed="true">View more</a>
                 </div>
@@ -22,7 +22,7 @@
             <img class="img-fluid" src="../../promo_box_2_bg.jpg" alt="promo1">
             <div class="ec-overlay">
                 <h2 class="text-white">Free Shipping</h2>
-                <span class="text-white">Vivamus tempor leo iacus, feugiat ut magna aliquam erat.</span>
+                <p class="text-white">Vivamus tempor leo iacus, feugiat ut magna aliquam erat.</p>
                 <div class="d-flex mt-4 gap-2">
                     <a href="#" class="btn btn-outline-light rounded-pill px-4 text-uppercase" role="button" data-bs-toggle="button" aria-pressed="true">View more</a>
                 </div>
@@ -34,12 +34,12 @@
 </template>
 
 <style lang="scss" scoped>
-#offert-block {
-    background-image: url(../assets/images/bkgd_confetti-compressor.jpg);
-    background-size: 90%;
-    background-position: center;
-}
-    .container {
+    #offert-block {
+        background-image: url(../assets/images/bkgd_confetti-compressor.jpg);
+        background-size: 90%;
+        background-position: center;
+
+        .container {
             position: relative;
             .box-offert {
                 position: relative;
@@ -53,8 +53,12 @@
                     h2 {
                         font-weight: 800;
                     }
+                    p {
+                        width: 60%;
+                    }
                 }
             }
         }
+    }
 
 </style>

@@ -10,6 +10,7 @@ import AppPostsBlog from './AppPostsBlog.vue';
 import AppCardsTopSell from './AppCardsTopSell.vue';
 import AppBrandsList from './AppBrandsList.vue';
 import AppCardsNewLetter from './AppCardsNewLetter.vue';
+import AppCarouselNewArrivals from './AppCarouselNewArrivals.vue';
 export default {
     name: 'Main',
     components: {
@@ -24,6 +25,7 @@ export default {
         AppCardsTopSell,
         AppBrandsList,
         AppCardsNewLetter,
+        AppCarouselNewArrivals,
     }
 };
 </script>
@@ -48,7 +50,7 @@ export default {
         <h2 class="gap-2 d-flex align-items-center">New Arrivals</h2>
         <span>Brand new project from top designers</span>
     </div>
-    <AppCardsBestSell></AppCardsBestSell>
+    <AppCarouselNewArrivals></AppCarouselNewArrivals>
     <AppBlockFeedback></AppBlockFeedback>
     <div class="ec-section d-flex flex-column align-items-center justify-content-center">
         <h2 class="gap-2 d-flex align-items-center">From Our Blog</h2>

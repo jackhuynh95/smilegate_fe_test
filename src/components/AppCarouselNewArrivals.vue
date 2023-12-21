@@ -1,17 +1,17 @@
 <script>
 export default {
-    name: 'CardsBestSellComponent',
+    name: 'CarouselNewArrivalsComponent',
 };
 </script>
 
 <template>
-    <section id="ec-carousel">
+    <section id="ec-carousel-arrivals">
         <div class="ec-content-images d-flex justify-content-center">
-            <img class="ec-image-carousel" src="../../spring_printed_dress-200x260.jpg" alt="spring1">
-            <img class="ec-image-carousel" src="../../modern_love_tee-200x260.jpg" alt="spring1">
-            <img class="ec-image-carousel" src="../../black_leather_jacket-200x260.jpg" alt="spring1">
-            <img class="ec-image-carousel" src="../../black_elegant_leather_jacket-200x260.jpg" alt="spring1">
-            <img class="ec-image-carousel" src="../../hipster_black_top-200x260.jpg" alt="spring1">
+            <img class="ec-image-carousel" src="../../black_elegant_leather_jacket-400x520.jpg" alt="spring1">
+            <img class="ec-image-carousel" src="../../hipster_black_top.jpg" alt="spring1">
+            <img class="ec-image-carousel" src="../../black_leather_suit.jpg" alt="spring1">
+            <img class="ec-image-carousel" src="../../spring_printed_dress.jpg" alt="spring1">
+            <img class="ec-image-carousel" src="../../modern_love_tee.jpg" alt="spring1">
         </div>
         <font-awesome-icon class="ec-prev" icon="fa-solid fa-chevron-left" />
         <font-awesome-icon class="ec-next" icon="fa-solid fa-chevron-right" />
@@ -20,7 +20,7 @@ export default {
 
 <style lang="scss" scoped>
 @use '../assets/styles/partials/variables' as *;
-#ec-carousel {
+#ec-carousel-arrivals {
     position: relative;
     padding-bottom: $size-distance;
     .ec-content-images {
