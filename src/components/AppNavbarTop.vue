@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <div id="top-header" class="container pt-2 d-flex align-items-center justify-content-between">
+    <div id="top-header" class="container d-flex align-items-center justify-content-between">
         <ul class="ec-socials d-flex m-0 align-items-center gap-3">
             <li>
                 <font-awesome-icon icon="fa-brands fa-facebook-f" />
@@ -49,12 +49,14 @@ export default {
 @use '../../src/assets/styles/partials/variables' as *;
 
 
+.ec-socials {
+    padding: 0;
+}
 .nav-link {
     color: $text;
 
     &:hover {
         background-color: rgb(236, 235, 235);
     }
-    
 }
 </style>
