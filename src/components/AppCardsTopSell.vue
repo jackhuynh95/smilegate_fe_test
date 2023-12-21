@@ -110,7 +110,7 @@ export default {
                     </ul>
                     <hr>
                 </div>
-                <div  id="latest-review" class="col-3">
+                <div id="latest-review" class="col-3">
                     <h6 class="text-uppercase">Latest review</h6>
                     <ul class="d-flex justify-content-between px-0">
                         <li class="d-flex flex-column">
@@ -157,6 +157,9 @@ export default {
 #top-sell{
     margin: 80px 0 $size-distance;
 
+    h6 {
+        letter-spacing: 4px;
+    }
     ul {
         li {
             list-style-type: none;
