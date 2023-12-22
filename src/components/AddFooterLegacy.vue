@@ -12,12 +12,12 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-    @use "../assets/styles/partials/variables" as *;
-    #bottom-footer {
-        color: $white;
-        background-color: $footer-bottom;
-        p {
-            font-size: 10px;
-        }
+@use "../assets/styles/partials/variables" as *;
+#bottom-footer {
+    color: $white;
+    background-color: $footer-bottom;
+    p {
+        font-size: 10px;
     }
+}
 </style>

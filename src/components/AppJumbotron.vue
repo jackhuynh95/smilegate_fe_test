@@ -6,7 +6,7 @@ export default {
 
 <template>
     <div id="header-bottom">
-        <img class="ec-img-fluid my-3" src="../../home1_slide_three_bg_2.jpg" alt="jumbotron_images">
+        <img class="ec-img-fluid" src="../../home1_slide_three_bg_2.jpg" alt="jumbotron_images">
         <div class="ec-overlay">
             <h1 class="text-white">Brand New Arrivals</h1>
             <span class="text-uppercase text-white">New collection form New York</span>

@@ -4,7 +4,7 @@ export default {
     props: {
         name: String,
         subtitle: Boolean,
-        options: String,
+        options: Array,
     }
 };
 </script>
@@ -30,6 +30,7 @@ export default {
 .nav-item {
     padding: 40px 0;
     border-top: 2px solid transparent;
+    
      &:hover {
         color: $color-primary;
         border-top: 2px solid $color-primary;

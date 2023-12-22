@@ -1,6 +1,14 @@
 <script>
+import ListRecentPost from './ListRecentPost.vue';
+import ListTags from './ListTags.vue';
+import ListRatedProducts from './ListRatedProducts.vue';
 export default {
     name: 'FooterTopComponent',
+    components: {
+        ListRecentPost,
+        ListTags,
+        ListRatedProducts,
+    }
 }
 </script>
 
@@ -17,33 +25,9 @@ export default {
                 <li><font-awesome-icon icon="fa-brands fa-youtube" /></li>
             </ul>
         </div>
-        <div id="ec-featured" class="col-3">
-            <h6 class="text-uppercase">Top Rated products</h6>
-            <ul class="d-flex justify-content-between px-0">
-                <li class="d-flex flex-column">
-                    <span>Black Jacket <strong>$215</strong></span>
-                    <span><font-awesome-icon v-for="n in 5" class="icon-small" icon="fa-solid fa-star" /></span>
-                    <span>$45</span>
-                 </li>
-                 <hr>
-                <li>
-                    <img class="img-top-sell" src="../../black_leather_jacket-120x156.jpg" alt="model1">
-                </li>
-            </ul>
-            <hr>
-        </div>
-        
-        <div id="ec-tags" class="col-3">
-            <h6 class="text-uppercase">Tags</h6>
-            <ul class="d-flex px-0">
-                <li class="d-flex gap-1">
-                    <a href=""><span class="badge border border-dark-subtle">New</span></a>
-                    <a href=""><span class="badge border border-dark-subtle">New</span></a>
-                    <a href=""><span class="badge border border-dark-subtle">New</span></a>
-                </li>
-                <hr>
-            </ul>
-        </div>
+        <ListRatedProducts></ListRatedProducts>
+        <ListRecentPost></ListRecentPost>
+        <ListTags></ListTags>
     </div>
 </div>
 
@@ -79,7 +63,6 @@ export default {
             height: auto;
         }
     }
-
 }
 
 #ec-tags {
