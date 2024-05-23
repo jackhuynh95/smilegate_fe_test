@@ -9,7 +9,7 @@ export default {
 </script>
     
 <template>
-    <div>
+    <div class="container">
         <h2>Photo Cards:</h2>
         <AppPostsBlog></AppPostsBlog>
     </div>
