@@ -8,9 +8,9 @@ export default {
 </script>
 
 <template>
-<li class="no-hover text-uppercase">
+<li class="no-hover text-uppercase py-2 px-4">
         <a
-          class="nav-link ec-color-primary rounded-pill py-1 px-4"
+          class="nav-link ec-color-primary rounded-pill"
           aria-current="page"
           href="#"
           >{{ name  }}</a
@@ -25,9 +25,15 @@ export default {
   background-color: transparent;
   border-color: $white;
   color: $white;
+  border: 1px solid;
   border-radius: 8px;
   &:hover {
     background-color: $color-primary;
+  }
+
+  a {
+    color: $white;
+    text-decoration: none;
   }
 }
 </style>
