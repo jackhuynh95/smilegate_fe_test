@@ -9,17 +9,8 @@ Utilities
 /*********************************
 Flexbox & Grid
 *********************************/
-.d-flex {
-    display: flex;
-}
-
-.align-items-center {
-    align-items: center;
-}
-
-.justify-content-between {
-    justify-content: space-between;
-}
+@import './utilities-flexbox-grid';
+@import './utilities-grid-cols';
 
 /*********************************
 Spacing

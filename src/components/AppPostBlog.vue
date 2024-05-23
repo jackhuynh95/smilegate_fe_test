@@ -6,7 +6,7 @@ export default {
 
 <template>
     <div class="card">
-        <img src="../../post_img_12-700x441.jpg" class="card-img-top" alt="...">
+        <img src="../../2MM9Jqo.png" class="card-img-top" alt="...">
         <div>
             <h6 class="card-title">Aenean lobortis enim viverra</h6>
             <p class="card-text">Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla,</p>
