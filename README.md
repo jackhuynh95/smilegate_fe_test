@@ -1,7 +1,6 @@
 # Project Vuejs
 
 ## Brief
-Riprodurre il layout proposto solo in versione Desktop
 ![avaida-web](/src/assets/images/screenshot.png)
 ![avaida-web](/src/assets/images/screenshot_large.png)
 ## Tecnologie
