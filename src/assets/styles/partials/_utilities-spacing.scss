@@ -1,0 +1,41 @@
+/*********************************
+Spacing
+*********************************/
+@import 'variables-sizes';
+
+@each $size,
+$value in $sizes {
+    .gap-#{$size} {
+        gap: $value;
+    }
+
+    .p-#{$size} {
+        padding: $value;
+    }
+
+    .px-#{$size} {
+        padding-left: $value;
+        padding-right: $value;
+    }
+
+    .py-#{$size} {
+        padding-top: $value;
+        padding-bottom: $value;
+    }
+
+    .pt-#{$size} {
+        padding-top: $value;
+    }
+
+    .pr-#{$size} {
+        padding-right: $value;
+    }
+
+    .pb-#{$size} {
+        padding-bottom: $value;
+    }
+
+    .pl-#{$size} {
+        padding-left: $value;
+    }
+}

@@ -25,7 +25,7 @@ export default {
   background-color: transparent;
   border-color: $white;
   color: $white;
-  border-radius: 40px;
+  border-radius: 8px;
   &:hover {
     background-color: $color-primary;
   }
