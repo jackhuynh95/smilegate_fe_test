@@ -3,37 +3,30 @@ export default {
     name: 'MenuLink',
     props: {
         name: String,
-        subtitle: Boolean,
-        options: Array,
     }
 };
 </script>
 
 <template>
-    <li class="nav-item dropdown">
-        <a class="nav-link " data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
-            {{ name }}
-        <span v-show="this.subtitle !== false">
-            <font-awesome-icon class="icon-small" icon="fa-solid fa-chevron-down" />
-        </span>
-        </a>
-        <ul class="dropdown-menu">
-            <li v-for="option in options">
-                <a class="dropdown-item" href="#">{{ option }}</a>
-            </li>
-        </ul>
-    </li>
+<li class="no-hover text-uppercase">
+        <a
+          class="nav-link ec-color-primary rounded-pill py-1 px-4"
+          aria-current="page"
+          href="#"
+          >{{ name  }}</a
+        >
+      </li>
 </template>
 
 <style lang="scss" scoped>
 @use '../assets/styles/partials/variables' as *;
-.nav-item {
-    padding: 40px 0;
-    border-top: 2px solid transparent;
-    
-     &:hover {
-        color: $color-primary;
-        border-top: 2px solid $color-primary;
-    }
+
+.no-hover {
+  background-color: $color-primary;
+  color: $white;
+  border-radius: 40px;
+  &:hover {
+    background-color: $color-secondary;
+  }
 }
 </style>
