@@ -8,15 +8,19 @@ export default {
 }
 </script>
 <template>
-    <header>
+    <header class="fixed top-0 inset-x-0">
         <AppNavbarBottom></AppNavbarBottom>
     </header>
 </template>
 <style lang="scss" scoped>
+@use '../../src/assets/styles/partials/variables' as *;
 
 header {
-   hr {
-    margin:0;
-   }
+    background: $header-top;
+    color: $white;
+
+    hr {
+        margin: 0;
+    }
 }
 </style>

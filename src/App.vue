@@ -12,9 +12,13 @@ export default {
 
 <template>
   <AppHeader></AppHeader>
-  <AppMain></AppMain>
+  <AppMain class="app-main"></AppMain>
 </template>
 
 <style lang="scss" scoped>
+@use '../src/assets/styles/partials/variables' as *;
 
+.app-main {
+  padding-top: $header-height;
+}
 </style>

@@ -22,11 +22,12 @@ export default {
 @use '../assets/styles/partials/variables' as *;
 
 .no-hover {
-  background-color: $color-primary;
+  background-color: transparent;
+  border-color: $white;
   color: $white;
   border-radius: 40px;
   &:hover {
-    background-color: $color-secondary;
+    background-color: $color-primary;
   }
 }
 </style>

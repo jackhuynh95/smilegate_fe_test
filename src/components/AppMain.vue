@@ -9,5 +9,8 @@ export default {
 </script>
     
 <template>
-    <AppPostsBlog></AppPostsBlog>
+    <div>
+        <h2>Photo Cards:</h2>
+        <AppPostsBlog></AppPostsBlog>
+    </div>
 </template>
