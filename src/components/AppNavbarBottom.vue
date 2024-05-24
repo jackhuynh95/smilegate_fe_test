@@ -11,7 +11,7 @@ export default {
 <template>
     <div id="ec-bottom-header" class="container d-flex align-items-center justify-content-between">
         <div class="ec-box-logo">
-            <img class=ec-logo src="../../classic_shop_logo2x.png" alt="logo-big">
+            <img class=ec-logo src="/classic_shop_logo2x.png" alt="logo-big">
         </div>
         <ListMenuNav></ListMenuNav>
     </div>
