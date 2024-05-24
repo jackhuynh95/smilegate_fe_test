@@ -1,0 +1,23 @@
+/*********************************
+Aspect Ratios
+*********************************/
+// Define a list of object-fit
+$object-fit-values: (
+  'cover': cover,
+  'contain': contain,
+  'fill': fill,
+  'none': none,
+  'scale-down': scale-down
+);
+
+$object-position-values: (
+  'center': center,
+  'top': top,
+  'bottom': bottom,
+  'left': left,
+  'right': right,
+  'top-left': top left,
+  'top-right': top right,
+  'bottom-left': bottom left,
+  'bottom-right': bottom right
+);

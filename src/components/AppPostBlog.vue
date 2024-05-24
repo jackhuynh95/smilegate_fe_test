@@ -18,7 +18,7 @@ export default {
 
 <template>
     <div class="card shadow">
-        <img :src="`/${thumbnail}.png`" class="card-img-top aspect-3-2 w-full" alt="...">
+        <img :src="`/${thumbnail}.png`" class="card-img-top aspect-3-2 w-full object-fit-cover" alt="...">
         <div class="px-2 py-1">
             <h6 class="card-title truncate my-0">Product name is quite long in some cases.</h6>
         </div>
@@ -32,6 +32,5 @@ export default {
     border: 1px solid $white;
     border-radius: 8px;
     overflow: hidden;
-    object-fit: cover;
 }
 </style>

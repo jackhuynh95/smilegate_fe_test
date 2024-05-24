@@ -1,0 +1,16 @@
+/*********************************
+Aspect Ratios
+*********************************/
+@import 'variables-object-fit';
+
+@each $name, $value in $object-fit-values {
+  .object-fit-#{$name} {
+    object-fit: $value;
+  }
+}
+
+@each $name, $value in $object-position-values {
+  .object-position-#{$name} {
+    object-position: $value;
+  }
+}
