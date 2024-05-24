@@ -4,7 +4,7 @@ Aspect Ratios
 @import 'variables-box-shadow';
 
 @each $name, $value in $box-shadow-values {
-  @if $name == '' {
+  @if $name == 'base' {
     .shadow {
       box-shadow: $value;
     }
