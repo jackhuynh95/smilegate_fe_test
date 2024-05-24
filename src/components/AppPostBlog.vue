@@ -32,5 +32,6 @@ export default {
     border: 1px solid $white;
     border-radius: 8px;
     overflow: hidden;
+    object-fit: cover;
 }
 </style>
