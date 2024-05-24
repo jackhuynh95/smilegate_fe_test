@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <div class="card">
+    <div class="card shadow-sm">
         <img src="../../2MM9Jqo.png" class="card-img-top aspect-3-2 w-full" alt="...">
         <div class="px-2 py-1">
             <h6 class="card-title my-0">Product name is quite long in some cases.</h6>

@@ -1,0 +1,16 @@
+/*********************************
+Aspect Ratios
+*********************************/
+@import 'variables-box-shadow';
+
+@each $name, $value in $box-shadow-values {
+  @if $name == '' {
+    .shadow {
+      box-shadow: $value;
+    }
+  } @else {
+    .shadow-#{$name} {
+      box-shadow: $value;
+    }
+  }
+}
