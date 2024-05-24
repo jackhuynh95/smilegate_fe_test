@@ -1,25 +1,28 @@
-//font montserrat 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+//font montserrat
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
 
 //font karla
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300&display=swap");
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 span,
 a {
-    font-family: 'Karla', sans-serif;
+    font-family: "Karla", sans-serif;
 }
 
 /*********************************
 Sizing
 *********************************/
+@import 'variables-breakpoints';
+@import 'variables-font-sizes';
+
 h1,
 .h1 {
     font-size: 2.25rem; // 36px
@@ -43,23 +46,45 @@ h3,
 
 h4,
 .h4 {
-  font-size: 1.25rem; /* 20px */
-  line-height: 1.75rem; /* 28px */
-  font-weight: 700;
+    font-size: 1.25rem;
+    /* 20px */
+    line-height: 1.75rem;
+    /* 28px */
+    font-weight: 700;
 }
 
 h5,
 .h5 {
-  font-size: 1.125rem; /* 18px */
-  line-height: 1.5rem; /* 24px */
-  font-weight: 700;
+    font-size: 1.125rem;
+    /* 18px */
+    line-height: 1.5rem;
+    /* 24px */
+    font-weight: 700;
 }
 
 h6,
 .h6 {
-  font-size: 1rem; /* 16px */
-  line-height: 1.5rem; /* 24px */
-  font-weight: 700;
+    font-size: 1rem;
+    /* 16px */
+    line-height: 1.5rem;
+    /* 24px */
+    font-weight: 700;
+}
+
+@each $name,
+$size in $font-sizes {
+    .text-#{$name} {
+        font-size: $size;
+    }
+
+    @each $breakpoint,
+    $value in $breakpoints {
+        @media (min-width: $value) {
+            .#{$breakpoint}\:text-#{$name} {
+                font-size: $size;
+            }
+        }
+    }
 }
 
 /*********************************
