@@ -1,10 +1,20 @@
 /*********************************
 Grid
 *********************************/
+@import 'variables-breakpoints';
+
 $grid-cols-count: 12; // Total number of grid columns
 
 @for $i from 1 through $grid-cols-count {
   .grid-cols-#{$i} {
     grid-template-columns: repeat($i, minmax(0, 1fr));
+  }
+
+  @each $name, $value in $breakpoints {
+    @media (min-width: $value) {
+      .#{$name}\:grid-cols-#{$i} {
+        grid-template-columns: repeat($i, minmax(0, 1fr));
+      }
+    }
   }
 }
