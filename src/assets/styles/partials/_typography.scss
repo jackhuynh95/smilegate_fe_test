@@ -80,3 +80,9 @@ Text Transform
 .normal-case {
     text-transform: none;
 }
+
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
