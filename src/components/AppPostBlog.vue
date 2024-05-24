@@ -17,7 +17,7 @@ export default {
 @use '../../src/assets/styles/partials/variables' as *;
 
 .card {
-    border: 1px solid $color-primary;
+    border: 1px solid $white;
     border-radius: 8px;
     overflow: hidden;
 }
