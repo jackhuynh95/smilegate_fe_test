@@ -1,0 +1,13 @@
+/*********************************
+Aspect Ratios
+*********************************/
+@import 'variables-aspect-ratios';
+
+// Mixin to generate aspect ratio classes
+@mixin aspect-ratio($prefix: "aspect") {
+    @each $name, $ratio in $aspect-ratios {
+      .#{$prefix}-#{$name} {
+        aspect-ratio: $ratio;
+      }
+    }
+  }

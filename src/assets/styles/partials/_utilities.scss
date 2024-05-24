@@ -20,6 +20,10 @@ Spacing
 /*********************************
 Layout
 *********************************/
+@import 'utilities-aspect-ratios';
+
+@include aspect-ratio();
+
 .fixed {
     position: fixed;
 }
