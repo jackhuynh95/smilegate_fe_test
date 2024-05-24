@@ -6,13 +6,19 @@ export default {
 
 <template>
     <div class="card">
-        <img src="../../2MM9Jqo.png" class="card-img-top" alt="...">
-        <div>
-            <h6 class="card-title">Aenean lobortis enim viverra</h6>
-            <p class="card-text">Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla,</p>
+        <img src="../../2MM9Jqo.png" class="card-img-top aspect-3-2 w-full" alt="...">
+        <div class="px-2 py-1">
+            <h6 class="card-title my-0">Product name is quite long in some cases.</h6>
         </div>
     </div>
 </template>
 
 <style lang="scss" scoped>
+@use '../../src/assets/styles/partials/variables' as *;
+
+.card {
+    border: 1px solid $color-primary;
+    border-radius: 8px;
+    overflow: hidden;
+}
 </style>
